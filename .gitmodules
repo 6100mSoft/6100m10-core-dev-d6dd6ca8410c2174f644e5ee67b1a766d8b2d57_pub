@@ -1,6 +1,6 @@
-[submodule "mem/3rdparty/ep"]
-	path = mem/3rdparty/ep
+[submodule "explorer/mem/3rdparty/ep"]
+	path = explorer/mem/3rdparty/ep
 	url = https://github.com/valinet/ExplorerPatcher
-[submodule "mem/3rdparty/sctfehexploit"]
-	path = mem/3rdparty/sctfehexploit
+[submodule "explorer/mem/3rdparty/sctfehexploit"]
+	path = explorer/mem/3rdparty/sctfehexploit
 	url = https://github.com/AEAEAEAE4343/SimpleClassicTheme/
