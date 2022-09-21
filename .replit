@@ -1,4 +1,4 @@
-run = "cowsay Configure me!"
+run = "bash compiler.sh"
 
 [nix]
 channel = "stable-21_11"
