@@ -1,7 +1,9 @@
 # Cygwin/mingw tasks go here
 
+
 # Make Build Directory
 mkdir build
+
 
 # Make build directory for ISO injections
 mkdir build\sources\
