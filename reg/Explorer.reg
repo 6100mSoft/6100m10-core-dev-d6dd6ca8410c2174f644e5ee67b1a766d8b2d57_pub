@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; Created by: Shawn Brink
+; Created on: October 4th 2021
+; Tutorial: https://www.elevenforum.com/t/enable-or-disable-file-explorer-command-bar-in-windows-11.1594/
+
+
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{d93ed569-3b3e-4bff-8355-3c44f6a52bb5}\InprocServer32]
+@=""
+
