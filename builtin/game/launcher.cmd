@@ -95,7 +95,7 @@ IF %strdata4%==8 GOTO WII_08
 IF %strdata4%==9 GOTO NEXTPAGE_2
 :NEXTPAGE_2
 cls
-type data3.ans
+type data5.ans
 set /p strdata5=What do you want to play:
 cls
 IF %strdata4%==0 GOTO WII_10
