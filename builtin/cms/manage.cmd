@@ -43,17 +43,17 @@ pause
 goto clearer
 :TASK3
 call :admingrabber
-Powershell.exe -executionpolicy remotesigned -File StartCheckmarx.ps1
+Powershell.exe -executionpolicy remotesigned -File "StartCheckmarx.ps1"
 pause
 goto clearer
 :TASK4
 call :admingrabber
-Powershell.exe -executionpolicy remotesigned -File StartSonarqube.ps1
+Powershell.exe -executionpolicy remotesigned -File "StartSonarqube.ps1"
 pause
 goto clearer
 :TASK5
 call :admingrabber
-Powershell.exe -executionpolicy remotesigned -File StartAcunetix.ps1
+Powershell.exe -executionpolicy remotesigned -File "StartAcunetix.ps1"
 pause
 goto clearer
 :TASK6
