@@ -8,6 +8,6 @@ Set objShortcut = objShell.CreateShortcut (strLPath & "\" & strProgramTitle & ".
 objShortcut.TargetPath = strProgram
 objShortcut.WorkingDirectory = strWorkDir
 objShortcut.Description = strProgramTitle
-objShortcut.IconLocation = "C:\Gloom10\CMS\Icons\logoff_winxp.ico"
+objShortcut.IconLocation = "C:\Gloom10\CMS\assets\45.ico"
 objShortcut.Save
 WScript.Quit
