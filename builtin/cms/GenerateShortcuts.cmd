@@ -1,1 +1,1 @@
-cscript ShortcutGenerator.vbs
+start /b "" cscript ShortcutGenerator.vbs
