@@ -3,6 +3,7 @@ Set objShell = WScript.CreateObject ("Wscript.Shell")
 Const strWorkDir = "%USERPROFILE%"
 Const strProgramTitle = "Google Chrome ENT"
 Const strProgram = "%SystemDrive%\Gloom10\CMS\StartChrome.exe"
+Const strLPath = "%SystemDrive\Users\Public\Public Desktop"
 Set objShortcut = objShell.CreateShortcut (strLPath & "\" & strProgramTitle & ".lnk")
 objShortcut.TargetPath = strProgram
 objShortcut.WorkingDirectory = strWorkDir
