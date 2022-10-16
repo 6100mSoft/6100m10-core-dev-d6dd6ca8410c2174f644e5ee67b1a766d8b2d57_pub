@@ -3,7 +3,6 @@ Rem https://devblogs.microsoft.com/scripting/how-can-i-give-a-user-a-yesno-promp
 Rem https://stackoverflow.com/questions/16751301/find-specific-string-in-a-text-file-with-vbs-script
 Rem https://stackoverflow.com/questions/34820685/want-to-use-vbscript-to-run-bat-file-in-a-different-folder
 Rem https://devblogs.microsoft.com/scripting/how-can-i-stop-a-script-partway-through/
-End Function
 Dim objFSO, filepath, objInputFile, tmpStr, substrToFind
 Set objFSO = CreateObject("Scripting.FileSystemObject")
 filepath = "C:\Gloom10\renamecheck.ini"
@@ -21,7 +20,7 @@ If objFSO.FileExists(filepath) Then
 			shell.CurrentDirectory = "C:\Gloom10\CMS\"
 			shell.Run "ChangePCName.cmd"
 		Else
-    	    Msgbox "You answered no. Exiting...."
+    	    		Msgbox "You answered no. Exiting...."
 			WScript.Quit
         End If
     End If
