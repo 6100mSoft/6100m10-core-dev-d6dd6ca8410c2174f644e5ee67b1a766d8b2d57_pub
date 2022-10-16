@@ -19,7 +19,7 @@ If objFSO.FileExists(filepath) Then
 			shell.CurrentDirectory = "C:\Gloom10\CMS\"
 			shell.Run "ChangePCName.cmd"
 		Else
-    	    M		Msgbox "You answered no. Exiting...."
+    	    		Msgbox "You answered no. Exiting...."
 			WScript.Quit
         End If
     End If
