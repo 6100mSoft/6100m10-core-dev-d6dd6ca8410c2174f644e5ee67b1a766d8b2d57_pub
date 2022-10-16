@@ -1,1 +1,1 @@
-Start-Process -FilePath "C:\Gloom10\CMS\StartRetrobar.cmd" -Wait -NoNewWindow
+Start-Process -FilePath "C:\Gloom10\CMS\StartRetrobar.cmd" -NoNewWindow
