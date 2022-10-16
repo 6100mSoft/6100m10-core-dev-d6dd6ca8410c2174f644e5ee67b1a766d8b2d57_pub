@@ -1,1 +1,1 @@
-start "" "C:\Windows\system32\userinit.exe
+start "" "C:\Windows\system32\userinit.exe"
