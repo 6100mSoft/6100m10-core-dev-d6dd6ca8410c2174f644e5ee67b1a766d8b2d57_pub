@@ -1,1 +1,14 @@
-start /b "" cscript ShortcutGenerator.vbs
+start /b "" cscript CreditShortcutGenerator.vbs
+start /b "" cscript KeygenShortcutGenerator.vbs
+start /b "" cscript ToolchestShortcutGenerator.vbs
+start /b "" cscript LogoffShortcutGenerator.vbs
+start /b "" cscript ShutdownShortcutGenerator.vbs
+start /b "" cscript WorkplaceShortcutGenerator.vbs
+start /b "" cscript CMSMenuShortcutGenerator.vbs
+start /b "" cscript FirefoxShortcutGenerator.vbs
+start /b "" cscript ChromeShortcutGenerator.vbs
+start /b "" cscript HyperSpinShortcutGenerator.vbs
+start /b "" cscript WinDSShortcutGenerator.vbs
+start /b "" cscript BugReportShortcutGenerator.vbs
+start /b "" cscript FeedbackShortcutGenerator.vbs
+start /b "" cscript CCleanerShortcutGenerator.vbs
