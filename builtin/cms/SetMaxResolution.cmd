@@ -2,6 +2,7 @@
 REM Thanks to https://stackoverflow.com/questions/12708098/batch-file-discovered-resolution
 REM and also thanks to https://stackoverflow.com/questions/8383317/how-would-i-set-each-line-of-a-text-document-to-separate-variables-using-batch
 REM and https://stackoverflow.com/questions/31919386/read-txt-line-by-line-into-batch-variables
+
 REM This is required.
 setlocal enabledelayedexpansion
 
