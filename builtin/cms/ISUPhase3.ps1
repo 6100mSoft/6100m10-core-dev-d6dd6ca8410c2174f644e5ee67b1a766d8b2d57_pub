@@ -25,7 +25,6 @@ Start-Process -FilePath "C:\Gloom10\CMS\Programs\StartISULabsService.cmd" -Wait 
 Start-Process -FilePath "C:\Gloom10\CMS\Wait4Seconds.ps1" -Wait -NoNewWindow
 Start-Process -FilePath "C:\Gloom10\CMS\WritePowerShellMessage.ps1" -Wait -NoNewWindow
 Start-Process -FilePath "C:\Gloom10\CMS\Wait4Seconds.ps1" -Wait -NoNewWindow
-Start-Process -FilePath "C:\Gloom10\CMS\Programs\RunISUPowershellScripts.cmd" -Wait -NoNewWindow
 Start-Process -FilePath "C:\Gloom10\CMS\Wait4Seconds.ps1" -Wait -NoNewWindow
 Start-Process -FilePath "C:\Gloom10\CMS\WriteSPMessage.ps1" -Wait -NoNewWindow
 Start-Process -FilePath "C:\Gloom10\CMS\Wait4Seconds.ps1" -Wait -NoNewWindow
