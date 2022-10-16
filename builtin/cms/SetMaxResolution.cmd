@@ -2,7 +2,6 @@
 REM Thanks to https://stackoverflow.com/questions/12708098/batch-file-discovered-resolution
 REM and also thanks to https://stackoverflow.com/questions/8383317/how-would-i-set-each-line-of-a-text-document-to-separate-variables-using-batch
 REM and https://stackoverflow.com/questions/31919386/read-txt-line-by-line-into-batch-variables
-
 REM This is required.
 setlocal enabledelayedexpansion
 
@@ -20,15 +19,15 @@ for /f "tokens=*" %%x in (C:\Gloom10\resolution.ini) do (
 	set var[!count!]=%%x
 )
 REM If algorthim one reads nothing, we check and verify that by checking var[1]
-IF [%var[0]%] == [] (
+IF [%var[1]%] == "" (
   GOTO OTHERCHECK
 ) ELSE (
    REM If not, we just set x and y as normal
-   call "C:\ProgramData\ISU\Programs\QRes.exe" /X:%var[0]% /X:%var[1]% /c 24s
+   call "C:\ProgramData\ISU\Programs\QRes.exe" /X:%var[1]% /Y:%var[2]% /c 24
 )
 :OTHERCHECK
 REM If it is indeed verified that it didnt read anything, we try a different way to
-IF [%var[1]%] == [] GOTO RETRY
+IF [%var[2]%] == "" GOTO RETRY
 :RETRY
 REM We set a counter like we did with the other algorthim
 set CountMii=1
@@ -40,12 +39,12 @@ for /f %%x in (C:\Gloom10\resolution.ini) do (
 REM We set the number of lines, just for reference
 set /a NumLines=Counter - 1
 REM If it read nothing, we just set a default and common resolution, but first we verify it
-IF [%Line_1%] == [] GOTO ERROR1
+IF DEFINED Line_1 call "C:\ProgramData\ISU\Programs\QRes.exe" /x:%Line_1% /y:%Line_2% ELSE GOTO ERROR1
 :ERROR1
 REM If it indeed is verified Algorthim 2 didn't read anything, we just set the default values
-IF [%Line_2%] == [] GOTO ERROR2
+IF DEFINED Line_2 GOTO :EOF ELSE GOTO ERROR2
 :ERROR2
-REM First we clear both X and yYfrom previous runs
+REM First we clear both X and Yfrom previous runs
 set x_reso=
 set y_reso=
 REM First we pull the DefaultX value
