@@ -8,5 +8,6 @@ Set objShortcut = objShell.CreateShortcut (strLPath & "\" & strProgramTitle & ".
 objShortcut.TargetPath = strProgram
 objShortcut.WorkingDirectory = strWorkDir
 objShortcut.Description = strProgramTitle
+objShortcut.IconLocation = "%SystemDrive%\Gloom10\CMS\Icons\ojasisrealfuckingcute.ico"
 objShortcut.Save
 WScript.Quit
