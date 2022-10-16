@@ -9,4 +9,7 @@ Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\StartAltTabTe
 Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\ISUPhase1.ps1"
 Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\ISUPhase2.ps1"
 Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\ISUPhase3.ps1"
+Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\StartCursorFX.ps1"
+Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\StartOpenShell.ps1"
+Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\Start3RVX.ps1"
 Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\InvokeRestartExplorer.ps1"
