@@ -1,6 +1,6 @@
 Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\TaskkillExplorer.ps1"
 Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\UserInitalizer.ps1"
-Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\GenerateShortcuts.ps1"
+Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\InvokeGenerateShortcuts.ps1"
 Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\TaskkillSysprep.ps1"
 Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\InvokeStartRetrobar.ps1"
 Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\InvokeStartBasicThemer2.ps1"
