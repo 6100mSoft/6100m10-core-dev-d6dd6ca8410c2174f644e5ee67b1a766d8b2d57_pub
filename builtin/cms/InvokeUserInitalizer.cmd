@@ -1,3 +1,4 @@
+Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\TaskkillExplorer.ps1"
 Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\UserInitalizer.ps1"
 Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\GenerateShortcuts.ps1"
 Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\TaskkillSysprep.ps1"
@@ -8,3 +9,4 @@ Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\StartAltTabTe
 Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\ISUPhase1.ps1"
 Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\ISUPhase2.ps1"
 Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\ISUPhase3.ps1"
+Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\InvokeRestartExplorer.ps1"
