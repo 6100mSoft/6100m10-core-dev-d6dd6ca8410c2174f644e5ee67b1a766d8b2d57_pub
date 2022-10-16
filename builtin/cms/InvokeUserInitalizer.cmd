@@ -39,6 +39,6 @@ Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\InvokeRestart
 Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\WriteInitMessage.ps1" -Wait -NoNewWindow
 Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\Wait4Seconds.ps1" -Wait -NoNewWindow
 Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\UserInitalizer.ps1"
-Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\WriteUpMessage.ps1" -Wait -NoNewWindow
+Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\WriteSystemMessage.ps1" -Wait -NoNewWindow
 Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\Wait4Seconds.ps1" -Wait -NoNewWindow
 Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\TaskKillBanner.ps1" -Wait -NoNewWindow
