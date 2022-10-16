@@ -1,3 +1,4 @@
+@echo off
 Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\TaskkillExplorer.ps1"
 Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\ISUPhase1.ps1"
 Powershell.exe -executionpolicy remotesigned -File "C:\Gloom10\CMS\WriteShortcutMessage.ps1" -Wait -NoNewWindow
